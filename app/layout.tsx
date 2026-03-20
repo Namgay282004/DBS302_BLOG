@@ -17,10 +17,10 @@ const sourceCodePro = Source_Code_Pro({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Chirpy - A Minimal Blog',
-    template: '%s | Chirpy',
+    default: 'DBS303 Learning Portfolio',
+    template: '%s | DBS303 Blog',
   },
-  description: 'A minimal, responsive and feature-rich blog built with Next.js',
+  description: 'A learning portfolio documenting my journey through DBS303 - Database Systems',
   generator: 'v0.app',
   icons: {
     icon: [

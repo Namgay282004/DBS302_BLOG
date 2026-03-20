@@ -94,9 +94,8 @@ export default function AboutPage() {
 
         <h2>About This Blog</h2>
         <p>
-          Welcome to {siteConfig.title}! This is a minimal, responsive, and feature-rich blog 
-          built with modern web technologies. The design is inspired by the Chirpy Jekyll theme 
-          and reimagined for the Next.js ecosystem.
+          Welcome to {siteConfig.title}! This is a personal learning portfolio documenting my journey through DBS303 (Database Systems). 
+          Built with modern web technologies including Next.js, React, and Tailwind CSS for a responsive and feature-rich experience.
         </p>
 
         <h3>Features</h3>
