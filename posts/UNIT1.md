@@ -1,6 +1,6 @@
 ---
 slug: unit1
-title: "🚀 Breaking the Table: A Deep Dive into NoSQL Databases"
+title: "Breaking the Table: A Deep Dive into NoSQL Databases"
 description: "Unit I: Introduction to NoSQL Databases - Explore the revolution of not-only-SQL databases, the CAP theorem, and different types of NoSQL databases."
 date: 2026-03-20
 categories:
@@ -50,7 +50,7 @@ The term emerged at a conference in 2009 when developers discussed alternatives 
 - **2015-2020:** Hybrid approaches emerge (NewSQL, polyglot persistence)
 - **2020-Present:** Cloud-native databases and specialized solutions (Time-series, Vector DBs, etc.)
 
-Today, most modern applications use a **mix of both**—SQL for structured data and NoSQL for unstructured/semi-structured data.
+Today, most modern applications use a **mix of both** SQL for structured data and NoSQL for unstructured/semi-structured data.
 
 ---
 
@@ -135,5 +135,5 @@ As we move through the remaining units in DBS303, we'll dive deeper into:
 
 ---
 
-**Happy learning! 📚**
+**Happy learning!**
 
