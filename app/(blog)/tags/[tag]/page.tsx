@@ -19,9 +19,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 }
 
-export function generateStaticParams() {
-  // This is needed for static generation, will be called at build time
-  return []
+export async function generateStaticParams() {
+  const tags = await getAllTags()
+  return tags.map((tag) => ({
+    tag: encodeURIComponent(tag.name),
+  }))
 }
 
 export default async function TagPage({ params }: PageProps) {

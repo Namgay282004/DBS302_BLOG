@@ -35,9 +35,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 }
 
-export function generateStaticParams() {
-  // This is needed for static generation, will be called at build time
-  return []
+export async function generateStaticParams() {
+  const posts = await getAllPosts()
+  return posts.map((post) => ({
+    slug: post.slug,
+  }))
 }
 
 export default async function PostPage({ params }: PageProps) {

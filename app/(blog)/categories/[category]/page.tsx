@@ -19,9 +19,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 }
 
-export function generateStaticParams() {
-  // This is needed for static generation, will be called at build time
-  return []
+export async function generateStaticParams() {
+  const categories = await getAllCategories()
+  return categories.map((category) => ({
+    category: encodeURIComponent(category.name),
+  }))
 }
 
 export default async function CategoryPage({ params }: PageProps) {
